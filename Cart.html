@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - HTML Dasar</title>
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="keranjang.png" type="imagex/png" >
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<!--Buat header-->    
+    <header>
+        <nav>
+            <div class="rangkap1">
+                <i class="fas fa-square" style="margin-right: 10px;"></i>
+                <h2>Site name</h2>
+                <ul>
+                    <li><a href="#">Category 1 </a>|</li>
+                    <li><a href="#">Category 2 </a>|</li>
+                    <li><a href="#">Category 3 </a></li>
+                </ul>
+            </div>
+            <div>
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <a href="#" id="a1"><b>Cart (1)</b></a>
+            </div>
+        </nav>
+    </header>
+    <hr id="hr1">
+    <main id="main1">
+<!--buat div rangkap2-->        
+        <div class="rangkap2">
+            <section>
+                <h1 id="h1pertama">Your Cart</h1>
+                <table style="width: 900px;">
+                    <thead>
+                        <tr>
+                            <th colspan="3"><hr id="hr2"></th>
+                        </tr>
+                        <tr>
+                            <th id="th1">Item</th>
+                            <th id="th2">Price</th>
+                            <th id="th3">Quantity</th>
+                        </tr>
+                        <tr>
+                            <th colspan="3"><hr id="hr3"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <figure>
+                                    <img src="bajuku.png" alt="T-Shirt image" width="150" height="130">
+                                    <div style="margin-left: 20px;">
+                                        <p id="p1">T-Shirt</p>
+                                        <p id="p2">Size Small</p>
+                                    </div>
+                                </figure>
+                            </td>
+                            <td>
+                                <h4><b>$200.00</b></h4>
+                            </td>
+                            <td>
+                                <select name="quantity" id="quantity">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><hr id="hr4"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Subtotal: <b>Rp.200.000</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><hr id="hr5"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="section1">
+                <h3>Summary (1 item)</h3>
+                <table style="width: 270px;">
+                    <tbody>
+                        <tr>
+                            <td id="td1">Subtotal</td>
+                            <td id="td21">Rp.200.000</td>
+                        </tr>
+                        <tr>
+                            <td id="td2">Shipping</td>
+                            <td id="td22">12.000</td>
+                        </tr>
+                        <tr>
+                            <td id="td3">Est. Taxes</td>
+                            <td id="td23">5000</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><hr id="hr6"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Total</b></td>
+                            <td id="td31"><b>Rp.200.000</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" id="td41"><button id="button1">Checkout</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+    <hr style="margin: 0; padding: 0;">
+    <footer>
+        <nav>
+<!--buat div rangkap3-->            
+        <div class="rangkap3">
+            <h4>Site name</h4>
+            <ul>
+                <li><a href="#">Category X</a><b>|</b></li>
+                <li><a href="#">Category Y</a><b>|</b></li>
+                <li><a href="#">Category Z</a></li>
+            </ul>
+        </div>
+        </nav>
+        <nav>
+            <div class="rangkap4">
+                <p id="p3">Stay in touch! Join our<b>Newsletter</b></p>
+                <br>
+                <input type="email" placeholder="Enter Email" style="padding: 5px;">
+                <button id="button2">Subscribe</button>
+                
+            </div>
+        </nav>
+    </footer>
+    <div class="rangkap5">
+        <button id="button3">visa</button>
+        <button id="button4">Distro</button>
+        <button id="button5">T-shirt</button>
+    </div>
+</body>
+</html>

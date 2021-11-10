@@ -1,0 +1,44 @@
+.div1 {
+    display: inline;
+    float : left;
+    margin-left :50px;
+    margin-top:20px;
+}
+
+.div2 {
+    display: inline;
+    float:left;
+    margin-left:20px;
+    font-size : 17px;
+}
+
+.div3 {
+    display: inline;
+    float:right;
+    margin-right:50px;
+    font-size: 17px;
+    text-align:right;
+}
+
+.div4 {
+    float: left;
+    margin-left:50px;
+}
+
+.div5 {
+    font-size: 17px;
+}
+
+.div6 {
+    float: left;
+    margin-left:50px;
+}
+
+.div7 {
+    margin-right: 3%;
+}
+
+.div8 {
+    float: right;
+    margin-right:10px;
+}

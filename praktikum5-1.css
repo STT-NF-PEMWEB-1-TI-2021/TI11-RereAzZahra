@@ -1,0 +1,27 @@
+.row {
+  
+    margin: auto;
+}
+
+.kolom {
+    width: 23%;
+    height: 600px;
+    float: left;
+    margin: 10px;
+}
+
+.kuning {
+    background-color: yellow;
+}
+
+.oren {
+    background-color: orange;
+}
+
+.hijaumuda {
+    background-color: lightgreen;
+}
+
+.birumuda {
+    background-color: lightblue;
+}

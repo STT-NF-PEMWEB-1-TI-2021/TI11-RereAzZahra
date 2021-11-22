@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.warna_a{
+    background-color: yellow;
+    height: 100px;
+    width: 22%;
+}
+
+.warna_b{
+    background-color: orange;
+    height: 100px;
+    width: 75%;
+    margin-left: 
+    3%;
+}
+
+.warna_c{
+    background-color: lightgreen;
+    height: 700px;
+    width: 22%;
+}
+
+.warna_d{
+    background-color: gray;
+    height: 700px;
+    width: 50%;
+    margin-left: 3%;
+}
+
+    .warna_e{
+        background-color: lightskyblue;
+        height: 700px;
+        width: 22%;
+        margin-left: 
+        3%;
+    }
+
+    .warna_f{
+        background-color: blue;
+        height: 100px;
+        width: 100%;
+        margin-top: 1%;
+    }
+
+    .baris1{
+        float: left;
+        margin-bottom: 1%;
+    }
+    .baris2{
+        float: left;
+        
+    }
+    .baris3{
+        float: left;
+
+    }

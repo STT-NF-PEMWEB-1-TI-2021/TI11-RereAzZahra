@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  
+}
+.warna1{
+    background-color: lightgreen;
+    height: 200px;
+}
+
+.warna2{
+    background-color: yellow;
+height: 300px;
+width: 20%;
+}
+
+.warna3{
+    background-color: orange;
+    height: 300px;
+    width: 75%;
+    margin-left: 5%;
+}
+
+.warna4{
+    background-color: blue;
+    height: 300px;
+    width: 75%;
+    margin-left: 
+    5%;
+}
+
+.isi{
+ float: left;
+ margin-top: 2%;
+}
+
+.kisi{
+    float: left;
+    margin-top: 2%;
+}

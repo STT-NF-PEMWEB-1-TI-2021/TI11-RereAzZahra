@@ -1,0 +1,41 @@
+<html>
+ <head>
+  <title>SOAL 4 RERE</title>
+  <script>
+   function getjumlah () //jumlahBilangan
+   {
+    var hasil;
+    var input1;
+    var input2;
+    input1 = parseInt(document .getElementById("txtinput1").value);
+    input2 = parseInt(document .getElementById("txtinput2").value);
+    //proses
+    hasil = input1 + input2;
+    //output
+    document.getElementById("txthasil").value = hasil;
+   }
+  </script>
+ </head>
+ <body>
+  <div>
+   <div>
+    <label> Bilangan Pertama </label>
+    <input type="text" id="txtinput1"/>
+   </div>
+   <h10>+</h10>
+   <div>
+    <label> Bilangan Kedua </label>
+    <input type="text" id="txtinput2"/>
+   </div>
+   <br>
+   <div>
+    <input type="button" value="jumlah" onclick="getjumlah()"/>
+   </div>
+   <br>
+   <div>
+    <label> Hasil </label>
+    <input type="text" id="txthasil"/>
+   </div>
+   
+  </div>
+ </body>
